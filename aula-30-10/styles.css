@@ -14,3 +14,22 @@ h2 {
     text-align: left;
     padding-left: 15%;
 }
+
+table, th, td {
+  border: 1px solid palevioletred;
+  background-color: white;
+  text-align: center;
+}
+th {
+    background-color: blanchedalmond;
+}
+
+table {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+}
