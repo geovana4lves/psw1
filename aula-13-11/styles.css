@@ -1,0 +1,24 @@
+ul {
+    background-color: saddlebrown;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    border-right: 1px solid burlywood;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    padding: 50px 30px;
+    text-align: center;
+    color: burlywood;
+}
+
+li a:hover{
+    background-color: rgb(126, 90, 64);
+  }
