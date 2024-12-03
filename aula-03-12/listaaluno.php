@@ -6,15 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-<table style="width:100%">
+<table>
   <tr>
     <th>aluno</th>
-    <th>Turma</th> 
+    <th>turma</th> 
   </tr>
   <tr>
     <td>
         <?php echo $_POST['aluno']; ?>
     </td>
+</tr>
+<tr>
     <td>
         <?php echo $_POST['turma']; ?>
     </td>
