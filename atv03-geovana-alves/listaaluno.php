@@ -22,7 +22,7 @@
     <div class="centrolista">
 
         <h1>LISTA DE CADASTRO</h1>
-        <div class="tabela">
+        <div class="lista">
         <table>
             <tr>
                 <th>CPF</th>

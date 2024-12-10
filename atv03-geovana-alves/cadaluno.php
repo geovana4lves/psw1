@@ -15,10 +15,8 @@
 
     <div class="titulo">
             <ul>
-                <li><a href="index.html">HOME</a>
-                </li>
-                <li><a href="listaaluno.html">LISTA DE ALUNOS</a>
-                </li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="listaaluno.html">LISTA DE ALUNOS</a></li>
             </ul>
     </div>
 
