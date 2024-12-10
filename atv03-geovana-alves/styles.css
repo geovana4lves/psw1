@@ -1,0 +1,209 @@
+.header {
+    background-color: #fcf09f;
+    color:#f27c7c;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ h2 {
+    color: #f27c7c;
+    padding: 0px 20px;
+}
+
+ h3 {
+     color: #de528c;
+     padding: 0px 20px;
+ }
+
+h1 {
+    color:#f27c7c;
+    display: flex;
+    padding: 0px 30%;
+}
+
+.titulo {
+    background-color: antiquewhite;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #f27c7c;
+    height: 40px;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #fcf6d0;
+    background-color: #f27c7c;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 12px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#de528c;
+    color: #fcf6d0;
+}
+
+
+.cadastro {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #fcf6d0;
+}
+
+.disciplinas {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #fcf6d0;
+}
+
+input[type=text], input[type=date], input[type=tel], select {
+    width: 30%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    border: 1px solid #de528c;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#endereco, #bairro, #cpf, #nascimento {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    border: 1px solid #de528c;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.inputs {
+    display: flex;
+    padding: 70px;
+}
+
+input[type=submit] {
+    background-color: #f5e8c6;
+    width: 15%;
+    font-size: medium;
+    height: 30px;
+    margin: auto;
+    border: 1px solid #f27c7c;
+    color: #f27c7c;
+    border-radius: 15px;
+}
+
+input[type=submit]:hover {
+    background-color: #fcf09f;
+}
+
+p {
+    font-size: large;
+    color: #de528c;
+}
+
+#home {
+    color: black;
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+h4 {
+    color:#898830;
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+ol {
+    color: black;
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+table {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+
+}
+
+th, td {
+    text-align: center;
+    font-size: 18px;
+    padding:15px 45px 15px 45px;
+    height: 20px;
+    width: 100%;
+}
+
+tr {
+    background-color: white;
+    font-size: 18px;
+    padding:10px 20px 10px 20px;
+    width:100px;
+    height: 30px;
+}
+
+th {
+    background-color: #f27c7c;
+    color:#fcf6d0;
+}
+
+.centrolista {
+    background-color: #fcf6d0;
+    height: 700px;
+    overflow: hidden;
+}
+
+.centrohome {
+    background-color: #fcf6d0;
+    height: 900px;
+    overflow: hidden;
+}
+
+.centro {
+    background-color: #fcf6d0;
+    height: 1200px;
+    overflow: hidden;
+}
+
+.rodape {
+    background-color: antiquewhite;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+#div6 {
+    background-color: #f27c7c;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 40%;
+    font-size: 25px;
+    color: #fcf09f;
+    height: 90px;
+}
