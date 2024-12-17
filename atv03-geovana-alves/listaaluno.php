@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
 
     <div class="titulo">
         <ul>
-            <li><a href="index,php">HOME</a></li>
+            <li><a href="index.php">HOME</a></li>
             <li><a href="cadaluno.php">FORMULÁRIO</a></li>
         </ul>
     </div>
@@ -50,6 +51,8 @@ echo "<table>
                 <th>Cidade</th>
                 <th>UF</th>
             </tr>
+
+            <tr>
 <td>$cpf</td>
 <td>$nascimento</td>
 <td>$nome</td>
@@ -60,6 +63,8 @@ echo "<table>
 <td>$bairro</td>
 <td>$cidade</td>
 <td>$uf</td>
+</tr>
+
 </table>";
 } else {
   echo "<p>Erro: ERRO NO ENVIO DO FORMULÁRIO.</p>";

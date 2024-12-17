@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
@@ -20,13 +21,13 @@
     </div>
 
     <div class="centro">
-        <div class="formulario">
+        <div class="todo">
         <div class="container">
             <h1>FORMULÁRIO</h1>
         <form action="listaaluno.php" method="post">
             <div class="primeiro"> 
             <p>CPF: <input type="tel" id="cpf" name="cpf"></p>
-            <p>D. nascimento: <input type="date" id="nascimento" name="nascimento"></p>
+            <p>Nascimento: <input type="date" id="nascimento" name="nascimento"></p>
             <p>Nome: <input type="text" id="nome" name="nome"></p>
             <p>Sobrenome: <input type="text" id="sobrenome" name="sobrenome"></p>
         </div>
@@ -115,7 +116,7 @@
     </div>
 
     <div class="rodape">
-        <div id="div6">Sistema criado por: Geovana Alves (1AII)</div>
+        <div id="div6">Sistema criado por: Geovana Alves (2AII)</div>
     </div>
 
 </body>
