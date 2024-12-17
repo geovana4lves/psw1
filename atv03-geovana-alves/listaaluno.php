@@ -22,33 +22,54 @@
     <div class="centrolista">
 
         <h1>LISTA DE CADASTRO</h1>
-        <table>
-            <tr>
-                <th>CPF</th>
-                <th>Data de nascimento</th>
-                <th>Nome</th>
-                <th>Sobrenome</th>
-                <th>ZAP</th>
-                <th>Telefone fixo</th>
-                <th>Endereço</th>
-                <th>Bairro</th>
-                <th>Cidade</th>
-                <th>UF</th>
-            </tr>
-            <tr>
-                <td><?php echo $_POST["cpf"]; ?></td>
-                <td><?php echo $_POST["nascimento"]; ?></td>
-                <td><?php echo $_POST["nome"]; ?></td>
-                <td><?php echo $_POST["sobrenome"]; ?></td>
-                <td><?php echo $_POST["zap"]; ?></td>
-                <td><?php echo $_POST["tel"]; ?></td>
-                <td><?php echo $_POST["endereco"]; ?></td>
-                <td><?php echo $_POST["bairro"]; ?></td>
-                <td><?php echo $_POST["cidade"]; ?></td>
-                <td><?php echo $_POST["uf"]; ?></td>
-            </tr>
-        </table>
-        </div>
+
+<?php
+
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+$cpf = htmlspecialchars($_POST['cpf']);
+$nascimento = htmlspecialchars($_POST['nascimento']);
+  $nome = htmlspecialchars($_POST['nome']);
+  $sobrenome = htmlspecialchars($_POST['sobrenome']);
+  $zap = htmlspecialchars($_POST['zap']);
+  $telfix = htmlspecialchars($_POST['telfix']);
+  $endereco = htmlspecialchars($_POST['endereco']);
+  $bairro = htmlspecialchars($_POST
+  ['bairro']);
+  $cidade = htmlspecialchars($_POST['cidade']);
+  $uf = htmlspecialchars($_POST['uf']);
+
+echo "<table>
+    
+  <tr>
+   <th>CPF</th>
+   <th>Data de nascimento</th>
+   <th>Nome</th>
+   <th>Sobrenome</th>
+   <th>ZAP</th>
+   <th>Telefone fixo</th>
+   <th>Endereço</th>
+   <th>Bairro</th>
+   <th>Cidade</th>
+   <th>UF</th>
+  </tr>
+  <tr>
+<td>$cpf</td>
+<td>$nascimento</td>
+<td>$nome</td>
+<td>$sobrenome</td>
+<td>$zap</td>
+<td>$telfix</td>
+<td>$endereco</td>
+<td>$bairro</td>
+<td>$cidade</td>
+<td>$uf</td>
+  </tr>
+  
+</table>";
+} else {
+  echo "<p>Erro: ERRO NO ENVIO DO FORMULÁRIO.</p>";
+}
+?>
     </div>
 
     <div class="rodape">

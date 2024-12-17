@@ -68,7 +68,7 @@
     </div>
 
     <div class="rodape">
-        <div id="div6">Sistema criado por: Geovana Alves (2AII)</div>
+        <div id="div6">Sistema criado por: Geovana Alves (1AII)</div>
     </div>
     
     </body>
